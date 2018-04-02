@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D034D3761FD50E1D0018953D /* BarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D034D3751FD50E1D0018953D /* BarViewController.swift */; };
+		D03BF6D91FE002DA00420334 /* DownImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03BF6D81FE002DA00420334 /* DownImage.swift */; };
+		D03BF6DB1FE00D3300420334 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D03BF6DA1FE00D3300420334 /* EventMonitor.swift */; };
+		D05430231FDFD60500E312DE /* ImageURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05430221FDFD60500E312DE /* ImageURL.swift */; };
+		D0646A401FD53FBC0045F984 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0646A3F1FD53FBC0045F984 /* AppDelegate.swift */; };
+		D0646A421FD53FBC0045F984 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0646A411FD53FBC0045F984 /* Assets.xcassets */; };
+		D0646A451FD53FBC0045F984 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0646A431FD53FBC0045F984 /* MainMenu.xib */; };
+		D0646A4C1FD540350045F984 /* LwWallpapersHelper.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = D0646A3D1FD53FBC0045F984 /* LwWallpapersHelper.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D06BE04F1FD420F20002470E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BE04E1FD420F20002470E /* AppDelegate.swift */; };
+		D06BE0511FD420F20002470E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D06BE0501FD420F20002470E /* ViewController.swift */; };
+		D06BE0531FD420F20002470E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D06BE0521FD420F20002470E /* Assets.xcassets */; };
+		D06BE0561FD420F20002470E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D06BE0541FD420F20002470E /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D029EDF51FDE9C9F00D4CD9C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0646A4B1FD5401A0045F984 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/Library/LoginItems;
+			dstSubfolderSpec = 1;
+			files = (
+				D0646A4C1FD540350045F984 /* LwWallpapersHelper.app in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D034D3751FD50E1D0018953D /* BarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewController.swift; sourceTree = "<group>"; };
+		D03BF6D81FE002DA00420334 /* DownImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownImage.swift; sourceTree = "<group>"; };
+		D03BF6DA1FE00D3300420334 /* EventMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventMonitor.swift; sourceTree = "<group>"; };
+		D05430221FDFD60500E312DE /* ImageURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageURL.swift; sourceTree = "<group>"; };
+		D0646A3D1FD53FBC0045F984 /* LwWallpapersHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LwWallpapersHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0646A3F1FD53FBC0045F984 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0646A411FD53FBC0045F984 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0646A441FD53FBC0045F984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D0646A461FD53FBC0045F984 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0646A471FD53FBD0045F984 /* LwWallpapersHelper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LwWallpapersHelper.entitlements; sourceTree = "<group>"; };
+		D06BE04B1FD420F20002470E /* LwWallpapers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LwWallpapers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D06BE04E1FD420F20002470E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D06BE0501FD420F20002470E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D06BE0521FD420F20002470E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D06BE0551FD420F20002470E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D06BE0571FD420F20002470E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D06BE0581FD420F20002470E /* LwWallpapers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LwWallpapers.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0646A3A1FD53FBC0045F984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06BE0481FD420F20002470E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0646A3E1FD53FBC0045F984 /* LwWallpapersHelper */ = {
+			isa = PBXGroup;
+			children = (
+				D0646A3F1FD53FBC0045F984 /* AppDelegate.swift */,
+				D0646A411FD53FBC0045F984 /* Assets.xcassets */,
+				D0646A431FD53FBC0045F984 /* MainMenu.xib */,
+				D0646A461FD53FBC0045F984 /* Info.plist */,
+				D0646A471FD53FBD0045F984 /* LwWallpapersHelper.entitlements */,
+			);
+			path = LwWallpapersHelper;
+			sourceTree = "<group>";
+		};
+		D06BE0421FD420F20002470E = {
+			isa = PBXGroup;
+			children = (
+				D06BE04D1FD420F20002470E /* LwWallpapers */,
+				D0646A3E1FD53FBC0045F984 /* LwWallpapersHelper */,
+				D06BE04C1FD420F20002470E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D06BE04C1FD420F20002470E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D06BE04B1FD420F20002470E /* LwWallpapers.app */,
+				D0646A3D1FD53FBC0045F984 /* LwWallpapersHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D06BE04D1FD420F20002470E /* LwWallpapers */ = {
+			isa = PBXGroup;
+			children = (
+				D06BE04E1FD420F20002470E /* AppDelegate.swift */,
+				D06BE0501FD420F20002470E /* ViewController.swift */,
+				D034D3751FD50E1D0018953D /* BarViewController.swift */,
+				D06BE0521FD420F20002470E /* Assets.xcassets */,
+				D06BE0541FD420F20002470E /* Main.storyboard */,
+				D06BE0571FD420F20002470E /* Info.plist */,
+				D06BE0581FD420F20002470E /* LwWallpapers.entitlements */,
+				D05430221FDFD60500E312DE /* ImageURL.swift */,
+				D03BF6D81FE002DA00420334 /* DownImage.swift */,
+				D03BF6DA1FE00D3300420334 /* EventMonitor.swift */,
+			);
+			path = LwWallpapers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0646A3C1FD53FBC0045F984 /* LwWallpapersHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0646A4A1FD53FBD0045F984 /* Build configuration list for PBXNativeTarget "LwWallpapersHelper" */;
+			buildPhases = (
+				D0646A391FD53FBC0045F984 /* Sources */,
+				D0646A3A1FD53FBC0045F984 /* Frameworks */,
+				D0646A3B1FD53FBC0045F984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LwWallpapersHelper;
+			productName = LwWallpapersHelper;
+			productReference = D0646A3D1FD53FBC0045F984 /* LwWallpapersHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D06BE04A1FD420F20002470E /* LwWallpapers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D06BE05B1FD420F20002470E /* Build configuration list for PBXNativeTarget "LwWallpapers" */;
+			buildPhases = (
+				D06BE0471FD420F20002470E /* Sources */,
+				D06BE0481FD420F20002470E /* Frameworks */,
+				D06BE0491FD420F20002470E /* Resources */,
+				D0646A4B1FD5401A0045F984 /* CopyFiles */,
+				D029EDF51FDE9C9F00D4CD9C /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LwWallpapers;
+			productName = LwWallpapers;
+			productReference = D06BE04B1FD420F20002470E /* LwWallpapers.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D06BE0431FD420F20002470E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = liwei;
+				TargetAttributes = {
+					D0646A3C1FD53FBC0045F984 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					D06BE04A1FD420F20002470E = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = D06BE0461FD420F20002470E /* Build configuration list for PBXProject "LwWallpapers" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D06BE0421FD420F20002470E;
+			productRefGroup = D06BE04C1FD420F20002470E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D06BE04A1FD420F20002470E /* LwWallpapers */,
+				D0646A3C1FD53FBC0045F984 /* LwWallpapersHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0646A3B1FD53FBC0045F984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0646A421FD53FBC0045F984 /* Assets.xcassets in Resources */,
+				D0646A451FD53FBC0045F984 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06BE0491FD420F20002470E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06BE0531FD420F20002470E /* Assets.xcassets in Resources */,
+				D06BE0561FD420F20002470E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0646A391FD53FBC0045F984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0646A401FD53FBC0045F984 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D06BE0471FD420F20002470E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D06BE0511FD420F20002470E /* ViewController.swift in Sources */,
+				D034D3761FD50E1D0018953D /* BarViewController.swift in Sources */,
+				D06BE04F1FD420F20002470E /* AppDelegate.swift in Sources */,
+				D03BF6DB1FE00D3300420334 /* EventMonitor.swift in Sources */,
+				D05430231FDFD60500E312DE /* ImageURL.swift in Sources */,
+				D03BF6D91FE002DA00420334 /* DownImage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D0646A431FD53FBC0045F984 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0646A441FD53FBC0045F984 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		D06BE0541FD420F20002470E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D06BE0551FD420F20002470E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0646A481FD53FBD0045F984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BU9JXXN2K8;
+				INFOPLIST_FILE = LwWallpapersHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liwei.LwWallpapersHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D0646A491FD53FBD0045F984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BU9JXXN2K8;
+				INFOPLIST_FILE = LwWallpapersHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liwei.LwWallpapersHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		D06BE0591FD420F20002470E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D06BE05A1FD420F20002470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		D06BE05C1FD420F20002470E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LwWallpapers/LwWallpapers.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BU9JXXN2K8;
+				INFOPLIST_FILE = LwWallpapers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liwei.LwWallpapers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		D06BE05D1FD420F20002470E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LwWallpapers/LwWallpapers.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = BU9JXXN2K8;
+				INFOPLIST_FILE = LwWallpapers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liwei.LwWallpapers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0646A4A1FD53FBD0045F984 /* Build configuration list for PBXNativeTarget "LwWallpapersHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0646A481FD53FBD0045F984 /* Debug */,
+				D0646A491FD53FBD0045F984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06BE0461FD420F20002470E /* Build configuration list for PBXProject "LwWallpapers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06BE0591FD420F20002470E /* Debug */,
+				D06BE05A1FD420F20002470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D06BE05B1FD420F20002470E /* Build configuration list for PBXNativeTarget "LwWallpapers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D06BE05C1FD420F20002470E /* Debug */,
+				D06BE05D1FD420F20002470E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D06BE0431FD420F20002470E /* Project object */;
+}
